@@ -3,6 +3,7 @@
 ;; Copyright (C) 2017  Alex Schroeder <alex@gnu.org>
 
 ;; Author: Alex Schroeder <alex@gnu.org>
+;; Maintainer: Alex Schroeder <alex@gnu.org>
 ;; Created: 2017-08-10
 ;; Version: 1.0
 ;; Keywords: comm
