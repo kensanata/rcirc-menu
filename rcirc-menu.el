@@ -26,6 +26,7 @@
 ;;; Code:
 (require 'rcirc)
 
+;;;###autoload
 (defun rcirc-menu ()
   "Show a list of all your `rcirc' buffers."
   (interactive)
