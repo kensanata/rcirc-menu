@@ -7,3 +7,7 @@ instead:
 ```elisp
 (global-set-key (kbd "C-c r") 'rcirc-menu)
 ```
+
+The result:
+
+![Screenshot](screenshot.png)
