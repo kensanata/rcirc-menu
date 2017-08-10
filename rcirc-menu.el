@@ -1,7 +1,12 @@
 ;;; rcirc-menu --- a menu of all your rcirc connections
 
 ;; Copyright (C) 2017  Alex Schroeder <alex@gnu.org>
-;;
+
+;; Author: Alex Schroeder <alex@gnu.org>
+;; Created: 2017-08-10
+;; Version: 1.0
+;; Keywords: comm
+
 ;; This program is free software: you can redistribute it and/or modify it
 ;; under the terms of the GNU General Public License as published by the Free
 ;; Software Foundation, either version 3 of the License, or (at your option)
@@ -192,8 +197,8 @@ ARGS is a list of two elements having the same form as the
 elements of ‘tabulated-list-entries’."
   (setq args (mapcar (lambda (v)
 		       (let ((s (aref (cadr v) 1)))
-			 (cond ((string= s "↑" 1))
-			       ((string= s "↓" 3))
+			 (cond ((string= s "↑") 1)
+			       ((string= s "↓") 3)
 			       (t 2))))
 		     args))
   (apply '< args))
@@ -210,3 +215,5 @@ elements of ‘tabulated-list-entries’."
 			       (t 4))))
 		     args))
   (apply '< args))
+
+;;; rcirc-menu.el ends here
