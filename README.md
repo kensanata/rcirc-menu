@@ -1,3 +1,8 @@
+# Moved to ELPA!
+
+The development of `rcirc-menu' has moved to
+[ELPA](http://elpa.gnu.org/).
+
 # Rcirc Menu
 
 If you are connected to too many channels, `rcirc-track-minor-mode' is
